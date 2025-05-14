@@ -1,0 +1,31 @@
+# Core Backend
+fastapi==0.110.0
+uvicorn==0.29.0
+python-dotenv==1.0.1
+
+# LangChain & LLM integrations
+langchain==0.3.20
+langchain-community==0.3.19
+langchain-openai==0.3.8
+openai==1.61.1
+
+# Embeddings
+sentence-transformers==2.2.2
+transformers==4.34.0
+huggingface_hub>=0.16.4,<1.0
+
+# Vector store - FAISS
+faiss-cpu
+
+# PDF parsing
+pypdf
+fpdf
+
+# Web search fallback (SerpAPI)
+google-search-results==2.4.2
+
+# Hybrid search (BM25 + vector similarity)
+rank_bm25
+
+# Text & config handling
+pydantic>=2.7.4,<3.0.0
